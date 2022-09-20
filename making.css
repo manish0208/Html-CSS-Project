@@ -1,0 +1,678 @@
+
+header{
+    margin: 0;
+    padding: 0; 
+}
+.header{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.bgimage{
+    width: 100%;
+    height: 550px;
+    opacity: 0.7;
+
+}
+.heading{
+    position: absolute;
+    top: 30%;
+    color: white;
+    width: 100%;
+    text-align: center;  
+    word-spacing: 5px;
+    letter-spacing: 5px;     
+}
+.logo{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 50px;
+}
+.sidebars{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+    cursor: pointer;
+
+}
+.fa-bars{
+    position: absolute;
+    color: black;
+    text-align: right;
+    font-size: large;
+    z-index: 1;
+    top: 10px;
+    right: 12px;
+   
+}
+.btn{
+    border-radius: 50px;
+    border-style: none;
+    transition: 0.4s;
+    cursor: pointer;
+    padding: 5px;
+}
+.btn:hover{
+    color: blue;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 15px;
+    background-color: bisque;
+}
+.aboutsection{ 
+    background-color: rgb(224, 217, 217);
+    width: 100%;
+    height: 550px;
+    margin-top: -100px;
+    transform: skewY(-5deg);
+}
+.about{
+    position: relative;
+    width: 100%;
+}
+.heading2{
+    position: absolute;
+    top: 50px;
+    color: green;
+    width: 100%;
+    transform: skewY(5deg);
+    text-align: center;   
+    word-spacing: 2px;    
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    transform: skewY(5deg);
+    position: absolute;
+    top: 120px;
+    width: 45%;
+    margin-left: 10px;
+}
+.desc > button{
+    border: none;
+    background-color: inherit;
+    color: green;
+    border-bottom: 1px solid green;
+    cursor: pointer;
+    width: 100px;
+}
+.desc > button:hover{
+    background-color: green;
+    color: white;
+}
+.img{
+    transform: skewY(5deg);
+    width: 50%;
+    float: right;
+    margin-right: 10px;
+}
+.img .img1{
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    top: 290px;
+    right: 200px;
+}
+.img .img1:hover{
+    border: 4px solid green;
+    padding: 10px;
+    z-index: 1;
+}
+.img .img2{
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    top: 180px;
+    right: 150px;
+}
+.img .img2:hover{
+    border: 4px solid green;
+    padding: 10px;
+    z-index: 1;
+}
+.img .img3{
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    top: 250px;
+    right: 50px;
+}
+.img .img3:hover{
+    border: 4px solid green;
+    padding: 10px;
+    z-index: 1;
+}
+.heading2 > h1:hover{
+    transform: rotate(-5deg);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.exploringNature{
+   margin-top: -2px;
+   transform: skewY(-5deg);
+}
+
+.cards{
+    position: relative;
+}
+.cards > img {
+    width: 100%;
+    height: 550px;
+    opacity: 0.7;
+}
+.card{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    
+    
+}
+.card1{
+    transform: skewY(5deg);
+    position: absolute;
+    top: 22.50%;
+    margin-left: 10%;
+    width: 150px;
+    height: 180px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(195, 238, 130);
+}
+.card1 > i {
+    position: absolute;
+    top: 10px;
+    margin-left: 45%;
+    color: green;   
+}
+.card1 > h4{
+    position: absolute;
+    top: 15px;
+    text-align: center;
+}
+
+.card1 > p {
+    position: absolute;
+    top: 70px;
+    text-align: center;
+}
+.card2{
+    transform: skewY(5deg);
+    position: absolute;
+    top: 25%;
+    margin-left: 30%;
+    width: 150px;
+    height: 180px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(195, 238, 130);
+}
+.card2 > i {
+    position: absolute;
+    top: 10px;
+    margin-left: 45%;
+    color: green;   
+}
+.card2 > h4{
+    position: absolute;
+    top: 15px;
+    text-align: center;
+}
+
+.card2 > p {
+    position: absolute;
+    top: 70px;
+    text-align: center;
+}
+.card3{
+    transform: skewY(5deg);
+    position: absolute;
+    top: 27.75%;
+    margin-left: 50%;
+    width: 150px;
+    height: 180px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(195, 238, 130);
+}
+.card3 > i {
+    position: absolute;
+    top: 10px;
+    margin-left: 45%;
+    color: green;   
+}
+.card3 > h4{
+    position: absolute;
+    top: 15px;
+    text-align: center;
+}
+
+.card3 > p {
+    position: absolute;
+    top: 70px;
+    text-align: center;
+}
+.card4{
+    transform: skewY(5deg);
+    position: absolute;
+    top: 30%;
+    margin-left: 70%;
+    width: 150px;
+    height: 180px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(195, 238, 130);
+}
+.card4 > i {
+    position: absolute;
+    top: 10px;
+    margin-left: 45%;
+    color: green;   
+}
+.card4 > h4{
+    position: absolute;
+    top: 15px;
+    text-align: center;
+}
+
+.card4 > p {
+    position: absolute;
+    top: 70px;
+    text-align: center;
+}
+
+.touringGuide{
+    margin-top: -280px;
+   transform: skewY(-5deg);
+   background-color: rgb(224, 217, 217);
+   width: 100%;
+   height: 550px;
+}
+.tours{
+    position: relative;
+    transform: skewY(5deg);
+}
+.tours > h2{
+    position: absolute;
+    top: 50px;
+    color: green;
+    word-spacing: 3px;
+    width: 100%;
+    text-align: center;
+}
+.tours > .tour1{
+    position: absolute;
+    top: 150px;
+    margin-left: 10%;
+    width: 200px;
+    height: 300px;
+    background-color: orange;
+}
+.tours > .tour1 > img {
+    width: 100%;
+    height: 41%;
+    opacity: 0.7;
+}
+.tour1 > h3{
+    position: absolute;
+    color: white;
+    font-weight: 300;
+    margin-right: 10px;
+    left: 70px;
+    top: 65px;
+    background-color: orange;
+    opacity: 0.8;
+    z-index: 1;
+    text-align: center;
+}
+.list {      
+    margin-top: -20px;
+    text-align: center;
+    background-color: white;    
+}
+.list p{
+    margin-left: 20%;
+    border-bottom: 1px solid black;
+    width: 50%;
+    top: 20px;
+    text-align: center;
+}
+
+.tours > .tour2{
+    position: absolute;
+    top: 150px;
+    margin-left: 40%;
+    width: 200px;
+    height: 215px;
+    background-color: green;
+}
+
+.tours > .tour2 > img {
+    width: 100%;
+    height: 48%;
+    opacity: 0.7;
+}
+.tour2 > h3{
+    position: absolute;
+    color: white;
+    font-weight: 300;
+    margin-right: 10px;
+    left: 70px;
+    top: 45px;
+    background-color: green;
+    font-weight: 300;
+    opacity: 0.8;
+    z-index: 1;
+    text-align: center;
+}
+.tours > .tour3{
+    position: absolute;
+    top: 150px;
+    margin-left: 70%;
+    width: 200px;
+    height: 295px;
+    background-color: blue;
+}
+
+.tours > .tour3 > img {
+    width: 100%;
+    height: 40%;
+    opacity: 0.7;
+}
+.tour3 > h3{
+    position: absolute;
+    color: white;
+    font-weight: 300;
+    margin-right: 10px;
+    left: 60px;
+    top: 60px;
+    background-color: blue;
+    font-weight: 300;
+    opacity: 0.8;
+    z-index: 1;
+    text-align: center;
+}
+
+.tours > .btnDiscover{
+    position: absolute;
+    top: 480px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    left: 45%;
+}
+
+.tours > .btnDiscover:hover{
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+.stories{
+   transform: skewY(-5deg);
+   background-color: rgb(224, 217, 217);
+   margin-top: -2px;
+   width: 100%;
+   height: 100px;
+}
+.story{
+    position: relative;
+    transform: skewY(5deg);
+    width: 100%;
+}
+.video{
+    position: absolute;
+    width: 100%;
+    height: 590px;
+}
+.back-video{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.story h2{
+    position: absolute;
+    top: 50px;
+    color: green;
+    width: 100%;
+    text-align: center;   
+    word-spacing: 5px; 
+    letter-spacing: 2px;
+    opacity: 1;
+    z-index: 1;
+}
+.storycount{
+    display: flex;
+    flex-direction: column;
+}
+.story1{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 200px;
+    width: 70%;
+    height: 150px;
+    background-color: white;
+    transform: skewX(-5deg);
+    left: 15%;
+    opacity: 0.8;
+}
+.story1 img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    left: 10px;
+    top: 10px;
+}
+.story1 h4{
+    position: absolute;
+    left: 150px;
+}
+.story1 p{
+    position: absolute;
+    bottom: 20px;
+    left: 140px;
+}
+.story2{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 400px;
+    width: 70%;
+    height: 150px;
+    background-color: white;
+    transform: skewX(-5deg);
+    left: 15%;
+    opacity: 0.8;
+}
+.story2 img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    left: 10px;
+    top: 10px;
+}
+.story2 h4{                    
+    position: absolute;
+    left: 150px;
+}
+.story2 p{
+    position: absolute;
+    bottom: 20px;
+    left: 140px;
+}
+
+.storycount button {
+    position: absolute;
+    top: 600px;
+    left: 45%;
+    border: none;
+    border-radius: 50px;
+    color: green;
+    padding: 5px;
+    cursor: pointer;
+}
+.storycount button:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: green;
+    color: white;
+    transition: 0.4s;
+}
+.booking{
+    margin-top: 573px;
+    width: 100%;
+    height: 550px;
+    z-index: -1;
+    background-color: lightgreen;
+}
+.outer{
+    position: relative;  
+}
+.startBooking img{
+    position: absolute;
+    width: 70%;
+    height: 310px;
+    z-index: 1;
+    opacity: 0.7;
+    left: 15%;
+    top: 140px;
+}
+.startBooking h2{
+    position: absolute;
+    left: 16%;
+    top: 150px;
+    color: rgb(5, 84, 5);
+    opacity: 1;
+    z-index: 1;
+    word-spacing: 5px;
+}
+.startBooking > .name{
+    position: absolute;
+    left: 16%;
+    top: 220px;
+    background-color: white;
+    z-index: 1;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+}
+.startBooking > .email{
+    position: absolute;
+    left: 16%;
+    top: 270px;
+    background-color: white;
+    z-index: 1;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+}
+.startBooking > .tourGroup{
+    position: absolute;
+    left: 16%;
+    top: 320px;
+    color: black;
+    z-index: 1;
+}
+.tourGroup button{
+    position: absolute;
+    top: 40px;
+    left: 6px;
+    color: green;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    word-spacing: 3px;
+    cursor: pointer;
+}
+.tourGroup button:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: green;
+    color: white;
+    transition: 0.4s;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(31, 28, 28);
+    
+}
+.footerSection{
+    position: relative;
+}
+
+.footerSection img{
+    position: absolute;
+    left: 43%;
+    top: 50px;
+}
+
+.leftFooter{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    width: 35%;
+    display: flex;
+    border-top: 1px solid white;
+   
+}
+.leftFooter p{
+    color: white;
+    font-size: small;
+    word-spacing: 6px;
+    text-align: center;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.leftFooter p:hover{
+    color: green;
+    transform: translateY(5px);
+}
+
+.rightFooter{
+    position: absolute;
+    top: 200px;
+    right: 30px;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid white;
+}
+.rightFooter .para{
+    color: white;
+}
+.rightFooter .para .highlight:hover{
+    color: green;
+}
